@@ -23,7 +23,7 @@
 }
 
 .showcase.active{
-    right: 235px;
+    right: 250px;
 
 }
 
@@ -32,7 +32,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 60px;
+    padding: 40px 100px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -95,7 +95,7 @@
 }
 
 .text h3{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1em;
     text-transform: uppercase;
@@ -155,7 +155,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 235px;
+    width: 250px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -179,15 +179,23 @@
 
 
 @media(max-width: 800px){
-    .showcase,.showcasae header{
+    .showcase,.showcase header{
         padding: 40px;
     }
 
     .text h2 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .text h3 {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    .showcase.active{
+        right: 200px;
+    }
+
+    .menu{
+        width: 200px;
     }
 }
