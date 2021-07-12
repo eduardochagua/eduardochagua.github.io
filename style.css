@@ -137,12 +137,13 @@
 
 .social li{
     list-style: none;
+    transform: translateX(-16px);
 }
 
 .social li a{
     display: inline-block;
     filter: invert(1);
-    margin-right: 20px;
+    margin-right: 10px;
     transform: scale(0.5);
     transition: 0.5s;
 }
